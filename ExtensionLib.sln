@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionLib", "ExtensionLib\ExtensionLib.csproj", "{3684B818-DD84-437E-99D7-06DADDF0D1FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionLib.Tests", "ExtensionLib.Tests\ExtensionLib.Tests.csproj", "{A37869B5-79ED-4F76-8282-3073B3FE2085}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3684B818-DD84-437E-99D7-06DADDF0D1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3684B818-DD84-437E-99D7-06DADDF0D1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3684B818-DD84-437E-99D7-06DADDF0D1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3684B818-DD84-437E-99D7-06DADDF0D1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37869B5-79ED-4F76-8282-3073B3FE2085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37869B5-79ED-4F76-8282-3073B3FE2085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37869B5-79ED-4F76-8282-3073B3FE2085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37869B5-79ED-4F76-8282-3073B3FE2085}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
