@@ -13,8 +13,25 @@ namespace ExtensionLib
     /// </summary>
     public static class StringExtensions
     {
-        ///<summary>Make this string into titlecase, but without any all-uppercase words</summary>
-        public static string MakeNice(this string str)
+
+        /// <summary>
+        /// Return a transformation of the passed string such that the first letter is lowercase, and the rest are as they were.
+        /// For example: "FirstString" becomes "firstString"
+        /// </summary>
+        /// <param name="str">The string to transform</param>
+        /// <returns></returns>
+        public static string ToCamelCase(this string str)
+        {
+            var first = str[0].ToLower();
+            var rest = str.Substring(1);
+            return first + rest;
+        }
+
+        ///<summary>
+        /// Return a transformation of the passed string such that each word is all lowercase except for the first letter, which is uppercase. 
+        /// For example: "THIS is TITLE case" becomes "This Is Title Case"
+        /// </summary>
+        public static string ToTitleCase(this string str)
         {
             return (str.HasValue()) ? Thread.CurrentThread.CurrentCulture.TextInfo.ToTitleCase(str.ToLower()) : str;
         }
